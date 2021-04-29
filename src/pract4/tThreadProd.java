@@ -1,10 +1,10 @@
 package pract4;
 
 public class tThreadProd extends Thread{
-	MonitorProdCons mon;
+	Almacen mon;
 	int id;
 	
-	tThreadProd(MonitorProdCons mon, int id) {
+	tThreadProd(Almacen mon, int id) {
 		this.mon = mon;
 		this.id = id;
 		System.out.println("Hilo productor " + id + " creado.");

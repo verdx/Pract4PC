@@ -1,6 +1,6 @@
 package pract4;
 
-public class MonitorProdCons {
+public class MonitorProdConsMonoBuffer implements Almacen{
 	
 	private Producto buffer;
 	

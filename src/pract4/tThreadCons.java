@@ -1,10 +1,10 @@
 package pract4;
 
 public class tThreadCons extends Thread{
-	MonitorProdCons mon;
+	Almacen mon;
 	int id;
 	
-	tThreadCons(MonitorProdCons mon, int id) {
+	tThreadCons(Almacen mon, int id) {
 		this.mon = mon;
 		this.id = id;
 		System.out.println("Hilo consumidor " + id + " creado.");
